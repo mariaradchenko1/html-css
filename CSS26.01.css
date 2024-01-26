@@ -1,0 +1,131 @@
+/* bootstrap container change */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+    max-height: 100%;
+  }
+}
+
+/* global */
+.button {
+  border-radius: 5px;
+  background: var(
+    --Gardient,
+    linear-gradient(90deg, #2563eb 0.36%, #d946ef 201.02%)
+  );
+  border: none;
+}
+
+.button a {
+  text-decoration: none;
+  color: #f9fafb;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.button a:hover {
+  color: #cacaca;
+}
+
+body {
+  background: url(../img/global__bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: "DM Sans";
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+
+/* service */
+
+.service-title {
+
+    
+
+  /* Використовуйте flex-контейнер для вирівнювання по центру */
+  /* Горизонтальне вирівнювання елементів в центрі */
+
+  /* Встановіть колір тексту white */
+  /* Розмір шрифту 42px */
+  /* Товщина шрифту 700*/
+  /* Міжрядковий інтервал normal */
+  /* Зовнішній відступ знизу 32px */
+}
+
+.service-text {
+  /* Використовуйте flex-контейнер для вирівнювання по центру */
+  /* Горизонтальне вирівнювання елементів в центрі */
+}
+
+.service-article {
+  /* Вирівняйте текст статті по центру */
+  /* Встановіть колір тексту white */
+  /* Розмір шрифту 16px */
+  /* Товщина шрифту 400*/
+  /* Міжрядковий інтервал 26px */
+  /* Зовнішній відступ знизу 40px */
+}
+
+.service-items {
+  /* Використовуйте flex-контейнер для вирівнювання по центру */
+  /* Горизонтальне вирівнювання елементів в центрі */
+  /* Встановіть проміжок між елементами 30px не через margin ta padding */
+}
+
+.service-item {
+  /* Використовуйте flex-контейнер для вирівнювання по центру */
+  /* Розташовуйте дочірні елементи в стовпчик */
+  /* Вирівнюйте елементи по центру по вертикалі */
+  /* Вирівнюйте елементи по центру по горизонталі */
+
+  /* Закруглення кутів 34px (border)*/
+  border: 1px solid var(--Bg-2, rgba(255, 255, 255, 0.08));
+  background: linear-gradient(
+    268deg,
+    rgba(254, 254, 255, 0.03) -11.04%,
+    rgba(255, 255, 255, 0.02) 104.89%
+  );
+
+  /* Shadow  */
+  box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.05);
+  /* Внутрішній відступ 20px ta 40 px*/
+}
+
+.service-item-icon {
+  /* Зовнішній відступ 18px */
+}
+
+.service-item-title {
+  /* Зовнішній відступ 18px */
+  /* Встановіть колір тексту white */
+  /* Розмір шрифту 24px */
+  /* Товщина шрифту 500*/
+  /* Міжрядковий інтервал normal */
+}
+
+.service-item-article {
+  /* Зовнішній відступ снизу 24px */
+  /* Встановіть колір тексту white */
+  /* Розмір шрифту 16px */
+  /* Товщина шрифту 400*/
+  /* Міжрядковий інтервал 26px */
+  /* Вирівнюйте текст по лівому краю (text-align)*/
+}
+
+.service-item-link {
+  /* Використовуйте flex-контейнер для вирівнювання по центру */
+  /* Відмініть оформлення підкреслення для посилання */
+}
+
+.service-item-link span {
+  /* Встановіть колір тексту white */
+  /* Зовнішній відступ справа 8px */
+}
